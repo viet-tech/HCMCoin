@@ -1,0 +1,8 @@
+obj/pbkdf2.o: pbkdf2.cpp /Volumes/MacOSX/github/hcm/src/pbkdf2.h \
+  /usr/local/opt/openssl/include/openssl/sha.h \
+  /usr/local/opt/openssl/include/openssl/e_os2.h \
+  /usr/local/opt/openssl/include/openssl/opensslconf.h
+pbkdf2.cpp /Volumes/MacOSX/github/hcm/src/pbkdf2.h :
+  /usr/local/opt/openssl/include/openssl/sha.h :
+  /usr/local/opt/openssl/include/openssl/e_os2.h :
+  /usr/local/opt/openssl/include/openssl/opensslconf.h :
